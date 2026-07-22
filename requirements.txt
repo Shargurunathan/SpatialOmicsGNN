@@ -1,0 +1,11 @@
+torch
+torchvision
+torch-geometric
+numpy
+pandas
+matplotlib
+opencv-python
+openslide-python
+Pillow
+scikit-learn
+networkx

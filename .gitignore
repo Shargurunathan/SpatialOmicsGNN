@@ -1,0 +1,13 @@
+# Dataset
+data/CMU-1.svs
+
+# Generated patch images
+outputs/patches/
+outputs/tissue_patches/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
