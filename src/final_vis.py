@@ -10,12 +10,10 @@ from sklearn.cluster import KMeans
 # ==========================================================
 # CONFIG — adjust these paths/names to match your files
 # ==========================================================
-GCN_FEATURES_PATH = "outputs/gcn_output.pt"     # <-- change to whatever
-                                                  #     GCN_layers.py saved,
-                                                  #     e.g. "outputs/features_128.pt"
+GCN_FEATURES_PATH = "outputs/features/gcn_output.pt"     
 COORDS_PATH = "outputs/patch_coordinates.csv"
 PATCH_FOLDER = "outputs/tissue_patches"
-EDGES_PATH = "outputs/edges.pt"
+EDGES_PATH = "outputs/graphs/edges.pt"
 N_CLUSTERS = 5          # try 4-8, tune by eye
 MARGIN = 512             # same border trim as vis_graph_fixed.py
 MIN_DEGREE = 2

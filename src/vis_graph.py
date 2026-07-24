@@ -60,7 +60,7 @@ kept_files = set(tissue_coordinates["Patch_Name"])
 # ----------------------------------
 # Load tissue-only graph edges
 # ----------------------------------
-edges = torch.load("outputs/edges.pt")
+edges = torch.load("outputs/graphs/edges.pt")
 
 G_full = nx.Graph()
 G_full.add_edges_from(edges)
